@@ -4,7 +4,7 @@ using System;
 using System.IO;
 using CsvHelper;
 
-// At somepoint change this CVS Helper
+// At somepoint change this CVS Helper. 
 public class ReadCSV
 {
     public string fileName { get; set; }
