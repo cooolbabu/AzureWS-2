@@ -14,9 +14,9 @@ readCSVFile.fileName = "./ReadFiles/sample.csv";
 // Create Events
 List<RobotX2EventStruct> rbtX2Events = new List<RobotX2EventStruct>()
 {
-    new RobotX2EventStruct() { temperature = 12.5f},
-    new RobotX2EventStruct() { temperature = 23.5f},
-    new RobotX2EventStruct() { temperature = 26.5f},
+    new RobotX2EventStruct() { temperature = 11.5f},
+    new RobotX2EventStruct() { temperature = 22.5f},
+    new RobotX2EventStruct() { temperature = 33.5f},
 
 };
 
@@ -28,16 +28,23 @@ string subject = "Message from Robotic arm";
 string eventType = "rbt-arm-iot";
 string dataVersion = "1.0";
 
-List<EventGridEvent> events = new List<EventGridEvent>();
+// This path to group and send events
+//List<EventGridEvent> events = new List<EventGridEvent>();
 foreach (RobotX2EventStruct rbtX2Event in rbtX2Events)
 {
     EventGridEvent eventGridEvent = new EventGridEvent(subject, eventType, dataVersion, JsonConvert.SerializeObject(rbtX2Event));
-    events.Add(eventGridEvent);
+    //events.Add(eventGridEvent);
+    eventGridPublisherClient.SendEventAsync(eventGridEvent).Wait();
+    // Send event(s) can be used to group events
+    // eventGridPublisherClient.SendEventsAsync(eventGridEvent).Wait();
+    //
     Console.WriteLine("Sending message: " + eventGridEvent.Data.ToString());
+
+    Thread.Sleep(2000);
 
 }
 
-eventGridPublisherClient.SendEventsAsync(events).Wait();
+//eventGridPublisherClient.SendEventsAsync(events).Wait();
 Console.WriteLine("Events Sent");
 
 
