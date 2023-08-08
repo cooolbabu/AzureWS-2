@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uwDIWMzfd7/T8aG5v3VJAnIVmz2PCLr3O3Yy6Ldte0QFxCXu7bvKH2HQhEGkWrSMtdAQ9vYpYiM/3LkF/brdxg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\coool\\Documents\\AzureWS\\AzureDeviceSimSolution\\ReadFiles\\ReadFiles.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\coool\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

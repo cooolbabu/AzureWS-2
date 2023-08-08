@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "AzureEvents"
+        },
+        {
+            "path": "AzureFunctions"
+        },
+        {
+            "path": "AzureDeviceSimSolution"
+        }
+    ]
+}
