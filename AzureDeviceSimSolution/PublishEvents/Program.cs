@@ -17,6 +17,7 @@ List<RobotX2EventStruct> rbtX2Events = new List<RobotX2EventStruct>()
     new RobotX2EventStruct() { temperature = 11.5f},
     new RobotX2EventStruct() { temperature = 22.5f},
     new RobotX2EventStruct() { temperature = 33.5f},
+    new RobotX2EventStruct() { temperature = 44.5f},
 
 };
 
