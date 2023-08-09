@@ -1,6 +1,6 @@
 # AzureWS
 
- WorkSpace Repo for all work in Azure
+ WorkSpace Repo for all work on Azure
 
 ### Azure IoT to ADT
 
