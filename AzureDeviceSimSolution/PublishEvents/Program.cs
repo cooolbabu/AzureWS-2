@@ -9,7 +9,7 @@ Console.WriteLine("Hello, World!");
 
 // Sample CSV File read for future use. Incorporate CSV Helper
 ReadCSV readCSVFile = new ReadCSV();
-readCSVFile.fileName = "./ReadFiles/sample.csv";
+readCSVFile.FileName = "./ReadFiles/sample.csv";
 
 // Create Events
 List<RobotX2EventStruct> rbtX2Events = new List<RobotX2EventStruct>()
