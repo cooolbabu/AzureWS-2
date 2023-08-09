@@ -1,4 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 //Time to remove
-Console.WriteLine("Hello, Sunil!");
+Console.WriteLine("Hello, Event publishing");
