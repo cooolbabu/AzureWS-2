@@ -7,7 +7,7 @@ using CsvHelper;
 // At somepoint change this CVS Helper. 
 public class ReadCSV
 {
-    public string FileName { get; set; }
+    public string? FileName { get; set; }
 
     public void ReadFile()
     {
