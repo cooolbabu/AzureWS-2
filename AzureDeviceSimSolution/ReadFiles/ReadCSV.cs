@@ -7,20 +7,20 @@ using CsvHelper;
 // At somepoint change this CVS Helper. 
 public class ReadCSV
 {
-    public string fileName { get; set; }
+    public string FileName { get; set; }
 
     public void ReadFile()
     {
 
         try
         {
-            if (this.fileName == null)
+            if (this.FileName == null)
             {
                 Console.WriteLine("Filename is null");
             }
             else
             {
-                using (StreamReader reader = new StreamReader(this.fileName))
+                using (StreamReader reader = new StreamReader(this.FileName))
                 {
                     while (!reader.EndOfStream)
                     {
