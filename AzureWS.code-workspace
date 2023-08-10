@@ -1,13 +1,22 @@
 {
-    "folders": [
-        {
-            "path": "AzureEvents"
-        },
-        {
-            "path": "AzureFunctions"
-        },
-        {
-            "path": "AzureDeviceSimSolution"
-        }
-    ]
+  "folders": [
+    {
+      "path": "AzureEvents"
+    },
+    {
+      "path": "AzureDeviceSimSolution"
+    },
+    {
+      "path": "AzIoTDeviceEventsSender"
+    },
+    {
+      "path": "ChupAzFunc_ADT"
+    },
+    {
+      "path": "ScratchPad"
+    }
+  ],
+  "settings": {
+    "debug.internalConsoleOptions": "neverOpen"
+  }
 }
