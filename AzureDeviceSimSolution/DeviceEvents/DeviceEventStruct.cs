@@ -2,10 +2,10 @@
 
 public class RobotX2EventStruct
 {
-    public float temperature { get; set; }
-    public void printDeviceInfo()
+    public string DataStr { get; set; }
+    public void PrintDeviceInfo()
     {
-        Console.WriteLine($"Current Temperature: {this.temperature}");
+        Console.WriteLine($"Current Temperature: {this.DataStr}");
         //return (0);
     }
 }
