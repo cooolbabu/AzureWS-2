@@ -23,13 +23,13 @@ namespace simulatedDevice
         private static async void SendDeviceToCloudMessagesAsync()
         {
             // Initial telemetry values
-            double minTemperature = 20;
+            double minTemperature = 70;
             double minHumidity = 60;
             Random rand = new Random();
 
             for (int i = 0; i < 20; ++i)
             {
-                double currentTemperature = minTemperature + rand.NextDouble() * 20;
+                double currentTemperature = Math.Round(minTemperature + rand.NextDouble() * 30, 1);
                 double currentHumidity = minHumidity + rand.NextDouble() * 20;
 
                 // Create JSON message
@@ -49,13 +49,13 @@ namespace simulatedDevice
                 // An IoT hub can filter on these properties without access to the message body.
                 //message.Properties.Add("temperatureAlert", (currentTemperature > 30) ? "true" : "false");
 
-                Console.WriteLine("{0} > Sending message: {1}", DateTime.Now, messageString);
-                Console.WriteLine(Encoding.UTF8.GetString(message.GetBytes()));
+                Console.WriteLine("{0}: Sending message: {1}", DateTime.Now, messageString);
+                //Console.WriteLine(Encoding.UTF8.GetString(message.GetBytes()));
                 // Send the telemetry message
                 await s_deviceClient.SendEventAsync(message).ConfigureAwait(false);
 
 
-                await Task.Delay(5000).ConfigureAwait(false);
+                await Task.Delay(10000).ConfigureAwait(false);
             }
         }
 
