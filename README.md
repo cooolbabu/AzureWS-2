@@ -2,6 +2,10 @@
 
 WorkSpace Repo for all work on Azure
 
+Intro on Youtube
+https://youtu.be/rLlqnt_RQ2s
+
+
 ### Azure IoT to ADT
 
 # Azure-IoT-ADT
