@@ -5,70 +5,70 @@
             "HydraulicPressure": 75.9,
             "FailedPickupsLastHr": 0,
             "PickupFailedAlert": false,
-            "PickupFailedBoxID": "Box-2101"
+            "PickupFailedBoxID": ""
         }
     },
     {
         "DeviceId": "Arm2",
         "Telemetry": {
-            "HydraulicPressure": 85.9,
+            "HydraulicPressure": 75.9,
             "FailedPickupsLastHr": 0,
             "PickupFailedAlert": false,
-            "PickupFailedBoxID": "Box-2102"
+            "PickupFailedBoxID": ""
         }
     },
     {
         "DeviceId": "Arm3",
         "Telemetry": {
-            "HydraulicPressure": 89.9,
+            "HydraulicPressure": 75.9,
             "FailedPickupsLastHr": 0,
             "PickupFailedAlert": false,
-            "PickupFailedBoxID": "Box-2103"
+            "PickupFailedBoxID": ""
         }
     },
     {
         "DeviceId": "Arm4",
         "Telemetry": {
-            "HydraulicPressure": 92.9,
+            "HydraulicPressure": 75.9,
             "FailedPickupsLastHr": 0,
             "PickupFailedAlert": false,
-            "PickupFailedBoxID": "Box-2104"
+            "PickupFailedBoxID": ""
         }
     },
     {
         "DeviceId": "Arm5",
         "Telemetry": {
-            "HydraulicPressure": 95.9,
-            "FailedPickupsLastHr": 2,
+            "HydraulicPressure": 75.9,
+            "FailedPickupsLastHr": 0,
             "PickupFailedAlert": false,
-            "PickupFailedBoxID": "Box-2105"
+            "PickupFailedBoxID": ""
         }
     },
     {
         "DeviceId": "Arm6",
         "Telemetry": {
             "HydraulicPressure": 75.9,
-            "FailedPickupsLastHr": 2,
+            "FailedPickupsLastHr": 0,
             "PickupFailedAlert": false,
-            "PickupFailedBoxID": "Box-2106"
+            "PickupFailedBoxID": ""
         }
     },
     {
         "DeviceId": "Arm2",
         "Telemetry": {
-            "HydraulicPressure": 72.9,
-            "FailedPickupsLastHr": 4,
+            "HydraulicPressure": 75.9,
+            "FailedPickupsLastHr": 0,
             "PickupFailedAlert": true,
-            "PickupFailedBoxID": "Box-2107"
+            "PickupFailedBoxID": ""
         }
     },
     {
         "DeviceId": "Arm2",
         "Telemetry": {
-            "HydraulicPressure": 95,
-            "FailedPickupsLastHr": 4,
-            "PickupFailedAlert": true,
-            "PickupFailedBoxID": "Box-2108"
+            "HydraulicPressure": 75.9,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": ""
         }
     }
 ]
