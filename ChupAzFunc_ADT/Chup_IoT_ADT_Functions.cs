@@ -57,14 +57,24 @@ namespace Chup.iot
                     // <Find_device_ID_and_temperature>
                     JObject deviceMessage = (JObject)JsonConvert.DeserializeObject(eventGridEvent.Data.ToString());
                     string deviceId = (string)deviceMessage["systemProperties"]["iothub-connection-device-id"];
-                    var temperature = deviceMessage["body"]["Temperature"];
+                    //var temperature = deviceMessage["body"]["Temperature"];
+                    var hydraulicPressure = deviceMessage["body"]["HydraulicPressure"];
+                    var failedPickupsLastHr = deviceMessage["body"]["FailedPickupsLastHr"];
+                    var pickupFailedAlert = deviceMessage["body"]["PickupFailedAlert"];
+                    var pickupFailedBoxID = deviceMessage["body"]["PickupFailedBoxID"];
 
-                    log.LogInformation($"Device:{deviceId} Temperature is:{temperature.Value<double>()}");
+                    log.LogInformation($"****   Device:{deviceId} HydraulicPressure:{hydraulicPressure.Value<double>()}");
+                    log.LogInformation($"****   Device:{deviceId} FailedPickupsLastHr is:{failedPickupsLastHr.Value<int>()}");
+                    log.LogInformation($"****   Device:{deviceId} PickupFailedAlert is:{pickupFailedAlert.Value<bool>()}");
+                    log.LogInformation($"****   Device:{deviceId} PickupFailedBoxID is:{pickupFailedBoxID.Value<string>()}");
 
 
                     // <Update_twin_with_device_temperature>
                     var updateTwinData = new JsonPatchDocument();
-                    updateTwinData.AppendReplace("/Temperature", temperature.Value<double>());
+                    updateTwinData.AppendReplace("/HydraulicPressure", hydraulicPressure.Value<double>());
+                    updateTwinData.AppendReplace("/FailedPickupsLastHr", failedPickupsLastHr.Value<int>());
+                    updateTwinData.AppendReplace("/PickupFailedAlert", pickupFailedAlert.Value<bool>());
+                    updateTwinData.AppendReplace("/PickupFailedBoxID", pickupFailedBoxID.Value<string>());
                     //updateTwinData.AppendReplace("/temperatureAlert", machineAlert.Value<bool>());
                     await client.UpdateDigitalTwinAsync(deviceId, updateTwinData);
 

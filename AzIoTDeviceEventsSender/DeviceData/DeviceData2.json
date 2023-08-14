@@ -1,0 +1,128 @@
+[
+    {
+        "DeviceId": "Arm1",
+        "Telemetry": {
+            "HydraulicPressure": 75.9,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": "Box-2101"
+        }
+    },
+    {
+        "DeviceId": "Arm2",
+        "Telemetry": {
+            "HydraulicPressure": 72,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": "Box-2201"
+        }
+    },
+    {
+        "DeviceId": "Arm3",
+        "Telemetry": {
+            "HydraulicPressure": 76.3,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": "Box-2301"
+        }
+    },
+    {
+        "DeviceId": "Arm4",
+        "Telemetry": {
+            "HydraulicPressure": 76.3,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": "Box-2301"
+        }
+    },
+    {
+        "DeviceId": "Arm5",
+        "Telemetry": {
+            "HydraulicPressure": 79.3,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": "Box-2501"
+        }
+    },
+    {
+        "DeviceId": "Arm6",
+        "Telemetry": {
+            "HydraulicPressure": 73.3,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": "Box-2601"
+        }
+    },
+    {
+        "DeviceId": "Arm1",
+        "Telemetry": {
+            "HydraulicPressure": 85.9,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": "Box-2102"
+        }
+    },
+    {
+        "DeviceId": "Arm2",
+        "Telemetry": {
+            "HydraulicPressure": 85.9,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": "Box-2202"
+        }
+    },
+    {
+        "DeviceId": "Arm2",
+        "Telemetry": {
+            "HydraulicPressure": 89.9,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": "Box-2103"
+        }
+    },
+    {
+        "DeviceId": "Arm2",
+        "Telemetry": {
+            "HydraulicPressure": 92.9,
+            "FailedPickupsLastHr": 1,
+            "PickupFailedAlert": true,
+            "PickupFailedBoxID": "Box-2104"
+        }
+    },
+    {
+        "DeviceId": "Arm2",
+        "Telemetry": {
+            "HydraulicPressure": 95.9,
+            "FailedPickupsLastHr": 3,
+            "PickupFailedAlert": true,
+            "PickupFailedBoxID": "Box-2105"
+        }
+    },
+    {
+        "DeviceId": "Arm2",
+        "Telemetry": {
+            "HydraulicPressure": 75.9,
+            "FailedPickupsLastHr": 4,
+            "PickupFailedAlert": true,
+            "PickupFailedBoxID": "Box-2106"
+        }
+    },
+    {
+        "DeviceId": "Arm2",
+        "Telemetry": {
+            "HydraulicPressure": 72.9,
+            "FailedPickupsLastHr": 4,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": "Box-2107"
+        }
+    },
+    {
+        "DeviceId": "Arm2",
+        "Telemetry": {
+            "HydraulicPressure": 71.9,
+            "FailedPickupsLastHr": 4,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": "Box-2108"
+        }
+    }
+]

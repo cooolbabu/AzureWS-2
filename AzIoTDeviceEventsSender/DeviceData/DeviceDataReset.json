@@ -1,0 +1,74 @@
+[
+    {
+        "DeviceId": "Arm1",
+        "Telemetry": {
+            "HydraulicPressure": 75.9,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": ""
+        }
+    },
+    {
+        "DeviceId": "Arm2",
+        "Telemetry": {
+            "HydraulicPressure": 75.9,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": ""
+        }
+    },
+    {
+        "DeviceId": "Arm3",
+        "Telemetry": {
+            "HydraulicPressure": 75.9,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": ""
+        }
+    },
+    {
+        "DeviceId": "Arm4",
+        "Telemetry": {
+            "HydraulicPressure": 75.9,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": ""
+        }
+    },
+    {
+        "DeviceId": "Arm5",
+        "Telemetry": {
+            "HydraulicPressure": 75.9,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": ""
+        }
+    },
+    {
+        "DeviceId": "Arm6",
+        "Telemetry": {
+            "HydraulicPressure": 75.9,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": ""
+        }
+    },
+    {
+        "DeviceId": "Arm2",
+        "Telemetry": {
+            "HydraulicPressure": 75.9,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": true,
+            "PickupFailedBoxID": ""
+        }
+    },
+    {
+        "DeviceId": "Arm2",
+        "Telemetry": {
+            "HydraulicPressure": 75.9,
+            "FailedPickupsLastHr": 0,
+            "PickupFailedAlert": false,
+            "PickupFailedBoxID": ""
+        }
+    }
+]

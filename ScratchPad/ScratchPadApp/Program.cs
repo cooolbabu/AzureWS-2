@@ -2,9 +2,9 @@
 
 using JsonTestersLib;
 
+JsonDeviceParser.JsonDeviceParserTest();
 
+// Console.WriteLine("ScratchPad App!");
 
-Console.WriteLine("ScratchPad App!");
-
-JsonTestParsing jtp = new JsonTestParsing();
-jtp.SimpleTest();
+// JsonTestParsing jtp = new JsonTestParsing();
+// jtp.SimpleTest();
