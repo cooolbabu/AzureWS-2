@@ -54,8 +54,6 @@ namespace SimulateDevices
                         ContentEncoding = "utf-8"
                     };
 
-                    Console.WriteLine("{0}: {1}: Message to: {2} {3}", i, DateTime.Now, deviceId, messageString);
-                    //Console.WriteLine(Encoding.UTF8.GetString(message.GetBytes()));
                     // Send the telemetry message
 
                     switch(deviceId){
@@ -85,8 +83,9 @@ namespace SimulateDevices
                             await s_deviceClient_arm6.SendEventAsync(message).ConfigureAwait(false);
                             break;
                     }
-                    //
-                    await Task.Delay(3000).ConfigureAwait(false);
+                
+                    Console.WriteLine("{0}: {1}: Message to: {2} {3}", i, DateTime.Now, deviceId, messageString);
+                    await Task.Delay(10000).ConfigureAwait(false);
                     ++i; // Let's keep a count of messages sent
                 }
             }

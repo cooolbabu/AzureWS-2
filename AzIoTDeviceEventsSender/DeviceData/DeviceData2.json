@@ -101,6 +101,24 @@
     {
         "DeviceId": "Arm2",
         "Telemetry": {
+            "HydraulicPressure": 95.9,
+            "FailedPickupsLastHr": 3,
+            "PickupFailedAlert": true,
+            "PickupFailedBoxID": "Box-2105"
+        }
+    },
+    {
+        "DeviceId": "Arm2",
+        "Telemetry": {
+            "HydraulicPressure": 95.9,
+            "FailedPickupsLastHr": 3,
+            "PickupFailedAlert": true,
+            "PickupFailedBoxID": "Box-2105"
+        }
+    },
+    {
+        "DeviceId": "Arm2",
+        "Telemetry": {
             "HydraulicPressure": 75.9,
             "FailedPickupsLastHr": 4,
             "PickupFailedAlert": true,
