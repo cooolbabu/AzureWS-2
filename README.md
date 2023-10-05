@@ -51,3 +51,5 @@ Other unimportant stuff
     dotnet publish -o publish
     Compress-Archive . publish.zip || Compress-Archive * publish.zip
 ```
+[Microsoft Graph Explore](https://developer.microsoft.com/en-us/graph/graph-explorer)
+[Microsoft Graph Fundamentals](https://learn.microsoft.com/en-us/training/paths/m365-msgraph-fundamentals/?WT.mc_id=m365-16105-cxa)
